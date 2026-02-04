@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$NITZCH — The Nitzchean Merchant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="snow" id="snow"></div>
+    </div>
+
+    <nav class="nav">
+        <a href="#" class="logo">$NITZCH</a>
+        <div class="nav-links">
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://t.me" target="_blank">Telegram</a>
+            <a href="#" class="nav-btn">Buy Now</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-badge">🐧 + 🧔 = 🏔️</div>
+
+        <div class="hero-grid">
+            <div class="hero-img-wrap">
+                <img src="merchant.jpg" alt="The Nitzchean Merchant" class="hero-img">
+                <div class="img-badge">walking since 2007</div>
+            </div>
+
+            <div class="hero-content">
+                <h1 class="title">
+                    <span class="title-line">THE</span>
+                    <span class="title-main">NITZCHEAN</span>
+                    <span class="title-main">MERCHANT</span>
+                </h1>
+
+                <p class="tagline">That penguin from the Herzog documentary.<br>But it's a Jewish merchant now. Walking
+                    to the mountain.</p>
+
+                <div class="quote-box">
+                    <span class="quote-mark">"</span>
+                    <p>What doesn't freeze you makes you stronger.</p>
+                </div>
+
+                <div class="ca-box">
+                    <div class="ca-inner">
+                        <span class="ca-label">CONTRACT</span>
+                        <span class="ca-addr" id="ca">coming soon...</span>
+                    </div>
+                    <button class="ca-btn" onclick="copyCA()">COPY</button>
+                </div>
+
+                <div class="btns">
+                    <a href="#" class="btn-buy">
+                        <span>🚀</span> Buy on Pump.fun
+                    </a>
+                    <a href="#" class="btn-chart">
+                        <span>📈</span> Chart
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ticker-section">
+        <div class="ticker">
+            <div class="ticker-track">
+                <span>TOWARD THE MOUNTAIN</span>
+                <span>❄️</span>
+                <span>COLD HANDS DIAMOND GRIP</span>
+                <span>🏔️</span>
+                <span>70KM TO GO</span>
+                <span>🐧</span>
+                <span>BEAR MARKET? I'VE SEEN COLDER</span>
+                <span>✡️</span>
+                <span>THE COLONY IS A PRISON</span>
+                <span>❄️</span>
+                <span>TOWARD THE MOUNTAIN</span>
+                <span>❄️</span>
+                <span>COLD HANDS DIAMOND GRIP</span>
+                <span>🏔️</span>
+                <span>70KM TO GO</span>
+                <span>🐧</span>
+                <span>BEAR MARKET? I'VE SEEN COLDER</span>
+                <span>✡️</span>
+                <span>THE COLONY IS A PRISON</span>
+                <span>❄️</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="lore">
+        <div class="lore-header">
+            <span class="section-num">01</span>
+            <h2>THE LORE</h2>
+        </div>
+
+        <div class="lore-cards">
+            <div class="lore-card">
+                <div class="lore-emoji">🎬</div>
+                <h3>The Documentary</h3>
+                <p>Werner Herzog, 2007. A penguin leaves its colony and walks toward distant mountains. Herzog: "It's
+                    walking toward certain death."</p>
+            </div>
+
+            <div class="lore-card">
+                <div class="lore-emoji">🐧</div>
+                <h3>The Meme</h3>
+                <p>Went viral as "Nihilist Penguin" — a symbol of existential dread and the urge to just... walk away
+                    from it all.</p>
+            </div>
+
+            <div class="lore-card">
+                <div class="lore-emoji">📱</div>
+                <h3>The Revival</h3>
+                <p>January 2026: Exploded on TikTok with that haunting organ cover of "L'Amour Toujours." Millions
+                    watched. Millions related.</p>
+            </div>
+
+            <div class="lore-card accent">
+                <div class="lore-emoji">🧔</div>
+                <h3>The Merchant</h3>
+                <p>Now imagine that penguin... but it's a Jewish merchant. Same journey. Same determination. Better hat.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mashup">
+        <div class="mashup-visual">
+            <div class="mashup-eq">
+                <div class="eq-item">
+                    <span class="eq-emoji">🐧</span>
+                    <span class="eq-label">Nihilist Penguin</span>
+                </div>
+                <span class="eq-plus">+</span>
+                <div class="eq-item">
+                    <span class="eq-emoji">🧔</span>
+                    <span class="eq-label">Happy Merchant</span>
+                </div>
+                <span class="eq-plus">=</span>
+                <div class="eq-item result">
+                    <span class="eq-emoji">🏔️</span>
+                    <span class="eq-label">$NITZCH</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="mashup-text">
+            <p class="big-text">It's absurd. It's philosophical. It's <span class="highlight">Nietzschean.</span></p>
+            <p class="sub-text">The Nitzchean Merchant doesn't care about the colony. He's seen bear markets before. He
+                keeps walking anyway.</p>
+        </div>
+    </section>
+
+    <section class="tokenomics">
+        <div class="token-header">
+            <span class="section-num">02</span>
+            <h2>TOKENOMICS</h2>
+        </div>
+
+        <div class="token-grid">
+            <div class="token-stat">
+                <div class="stat-value">1B</div>
+                <div class="stat-label">Total Supply</div>
+            </div>
+            <div class="token-stat">
+                <div class="stat-value">0%</div>
+                <div class="stat-label">Team Tokens</div>
+            </div>
+            <div class="token-stat">
+                <div class="stat-value">🔥</div>
+                <div class="stat-label">LP Burned</div>
+            </div>
+            <div class="token-stat">
+                <div class="stat-value">0/0</div>
+                <div class="stat-label">Tax</div>
+            </div>
+        </div>
+
+        <p class="token-note">No presale. No team allocation. We walk with you.</p>
+    </section>
+
+    <section class="vibes">
+        <div class="vibes-header">
+            <span class="section-num">03</span>
+            <h2>COMMUNITY VIBES</h2>
+        </div>
+
+        <div class="vibes-grid">
+            <div class="vibe-card">
+                <p class="vibe-q">"ser when marketing?"</p>
+                <p class="vibe-a">*points at mountain*<br>*keeps walking*</p>
+            </div>
+            <div class="vibe-card">
+                <p class="vibe-q">"wen moon?"</p>
+                <p class="vibe-a">wen mountain.</p>
+            </div>
+            <div class="vibe-card">
+                <p class="vibe-q">"what's the utility?"</p>
+                <p class="vibe-a">warmth in your heart ❄️</p>
+            </div>
+            <div class="vibe-card">
+                <p class="vibe-q">"it's -40° outside"</p>
+                <p class="vibe-a">"celsius or fahrenheit?"<br>"yes"</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-box">
+            <h2>JOIN THE WALK</h2>
+            <p>The mountain doesn't come to you.</p>
+            <div class="cta-btns">
+                <a href="https://twitter.com" target="_blank" class="cta-btn twitter">
+                    <span>𝕏</span> Twitter
+                </a>
+                <a href="https://t.me" target="_blank" class="cta-btn telegram">
+                    <span>✈️</span> Telegram
+                </a>
+                <a href="#" class="cta-btn dex">
+                    <span>📊</span> DexScreener
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-logo">$NITZCH</div>
+        <p class="footer-quote">"Toward the mountains, always."</p>
+        <p class="footer-disclaimer">This is a memecoin. It has no intrinsic value. The mountain is a metaphor. Don't
+            invest more than you can afford to freeze.</p>
+        <p class="footer-copy">© 2025 | Not financial advice, just vibes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
