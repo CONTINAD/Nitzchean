@@ -556,6 +556,99 @@ h2 {
     font-size: 0.9rem;
 }
 
+/* Chart Section */
+.chart-section {
+    padding: 4rem 2rem;
+}
+
+.chart-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.chart-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.chart-embed {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.chart-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.chart-placeholder {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--card);
+    z-index: 2;
+}
+
+.placeholder-content {
+    text-align: center;
+}
+
+.placeholder-emoji {
+    font-size: 4rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.placeholder-content p {
+    font-size: 1.25rem;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+}
+
+.placeholder-sub {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.chart-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.chart-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.chart-link:hover {
+    border-color: var(--gold);
+    background: var(--card-hover);
+}
+
 /* Vibes */
 .vibes-grid {
     display: grid;
